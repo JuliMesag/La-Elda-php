@@ -1,0 +1,225 @@
+/* =============GENERALES============= */
+:root {
+    --amarillo: #FF6700;
+    --blanco: #EBEBEB;
+    --gris: #C0C0C0;
+    --azul-claro: #3A6EA5;
+    --azul-oscuro: #004E98;
+}
+
+
+
+
+body{
+    background-color: var(--gris);
+}
+h1,h2,h3,h4,p,a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+input{
+    background-color: var(--gris) !important;
+    color: black !important;
+    border-color:var(--gris) !important;
+}
+.sec-izq{
+    background-color: var(--blanco);
+}
+.boton{
+    background-color: var(--azul-oscuro) !important;
+    border: var(--azul-oscuro);
+    margin-top: 1rem;
+    width: 8rem;
+    height: 2rem;
+    transition-property: background-color;
+    transition-duration: .4s;
+    border-radius: 0.2rem;
+    color: var(--blanco) !important;
+    border: none;
+}
+.boton:hover{
+    cursor: pointer;
+    background-color: var(--azul-claro) !important;
+}
+.boton-centrado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =============INICIO============= */
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin-top: 3rem;
+    background-color: var(--blanco);
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+}
+label{
+    color: black;
+}
+.centrar-h4{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.centrar-inicio{
+    text-align: center;
+    margin-top: 10rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+
+
+/* =============SECCIONES============= */
+.posicion-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--gris);
+}
+.centrar{
+    text-align: center;
+    background-color: var(--blanco);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.espacios{
+    padding: 1rem 0;
+    text-align: center;
+    background-color: var(--blanco);
+}
+.color-focus{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: var(--gris);
+}
+.espacios:hover{
+    background-color: var(--gris);
+}
+
+
+/* =============CONTENIDO (Inventario) ============= */
+
+
+
+
+
+
+
+
+/* =============CONTENIDO (Proveedores) ============= */
+
+
+
+
+
+
+
+
+/* =============CONTENIDO (Clientes) ============= */
+
+
+
+
+
+
+
+
+/* =============CONTENIDO (Ventas) ============= */
+
+.fuente-total{
+    font-size: 4rem;
+}
+.hr-venta{
+    background-color:black;
+    height: 2px !important;
+}
+.flex-form{
+    display: flex;
+    justify-content:space-evenly;
+}
+.margen-input-venta{
+    width: 20%;
+}
+.flex-imput{
+    display: flex;
+    justify-content: center;
+}
+.fuente-devolver{
+    font-size: 2rem;
+}
+
+
+
+.grid-ventas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+
+
+/* =============CONTENIDO (Compras) ============= */
+.grid-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.centrar-compra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center;
+    padding-top: 10rem; */
+}
+.espacio-icono{
+    margin-bottom: 1rem;
+}
+.total-espacio{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.bg-color{
+    background-color: var(--blanco);
+    border-radius: 1rem;
+}
+.list-group-item{
+    background-color: var(--gris);
+    border-color: var(--blanco);
+    
+}
+
+td, th{
+    color:#000;  
+    border-color: #A2ABB5 !important;
+}
+
+.tot-comp{
+    padding-bottom: 1rem;
+}
+
+
+
+/* =============CONTENIDO (Informes) ============= */
+
+
+
+
+
